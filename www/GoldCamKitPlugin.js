@@ -1,5 +1,3 @@
-cordova.define("gold.cam.kit.GoldCamKitPlugin", function(require, exports, module) {
-
 var exec = require('cordova/exec');
     // XXX: commented out
     //CameraPopoverHandle = require('./CameraPopoverHandle');
@@ -15,5 +13,3 @@ cameraExport.openCam = function(successCallback, errorCallback, options) {
 };
 
 module.exports = cameraExport;
-
-});
